@@ -1,9 +1,3 @@
-// أضف هذا السطر في بداية ملف data-loader.js
-localStorage.clear(); // لمسح البيانات المحفوظة محلياً
-sessionStorage.clear();
-
-// ثم قم بتحديث الصفحة
-location.reload(true); // Hard reload
 /**
  * Data Loader Script
  * يقوم بتحميل البيانات من ملف JSON وعرضها ديناميكياً
