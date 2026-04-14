@@ -1,5 +1,5 @@
 // ==================== WHATSAPP CONFIGURATION ====================
-let WHATSAPP_NUMBER = '201009447671'; // القيمة الافتراضية
+let WHATSAPP_NUMBER = '201090408853'; // القيمة الافتراضية
 
 // دالة لتحديث رقم الواتساب
 window.updateWhatsAppConfig = function(number) {
