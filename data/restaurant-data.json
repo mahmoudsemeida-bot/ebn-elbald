@@ -1,0 +1,397 @@
+{
+  "restaurantInfo": {
+    "name": "مشويات ابن البلد",
+    "slogan": "الطعم الأصيل في طامية",
+    "description": "متخصصون في تقديم ألذ المشويات المصرية الأصيلة المحضرة على الفحم بأعلى معايير الجودة",
+    "category": "مطعم مشويات شرقي",
+    "rating": 4.5,
+    "totalReviews": 350,
+    "yearsOfExperience": 10,
+    "contact": {
+      "phone": "01009447671",
+      "whatsapp": "201009447671",
+      "address": "طامية - بجوار نادي النصر - الفيوم - مصر",
+      "workingHours": "يومياً من 12 ظهراً - 2 صباحاً"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com",
+      "instagram": "https://www.instagram.com",
+      "whatsapp": "https://wa.me/201009447671"
+    }
+  },
+  "features": [
+    {
+      "id": 1,
+      "icon": "fas fa-fire",
+      "title": "مشوي على الفحم",
+      "description": "جميع المشويات يتم تحضيرها على الفحم الطبيعي"
+    },
+    {
+      "id": 2,
+      "icon": "fas fa-truck-fast",
+      "title": "توصيل سريع",
+      "description": "نوصل طلبك ساخن وطازج لباب البيت"
+    },
+    {
+      "id": 3,
+      "icon": "fas fa-utensils",
+      "title": "أكل طازج يومياً",
+      "description": "نختار أجود أنواع اللحوم الطازجة كل يوم"
+    },
+    {
+      "id": 4,
+      "icon": "fas fa-check-circle",
+      "title": "جودة عالية",
+      "description": "نختار أجود أنواع اللحوم الطازجة يومياً"
+    },
+    {
+      "id": 5,
+      "icon": "fas fa-tag",
+      "title": "أسعار مناسبة",
+      "description": "أسعار اقتصادية تناسب جميع العائلات"
+    },
+    {
+      "id": 6,
+      "icon": "fas fa-map-marker-alt",
+      "title": "موقع متميز",
+      "description": "بجوار نادي النصر - طامية - الفيوم"
+    }
+  ],
+  "menu": {
+    "categories": [
+      {
+        "id": "all",
+        "name": "الكل",
+        "nameEn": "all"
+      },
+      {
+        "id": "grills",
+        "name": "المشويات",
+        "nameEn": "grills"
+      },
+      {
+        "id": "sandwiches",
+        "name": "ساندوتشات",
+        "nameEn": "sandwiches"
+      },
+      {
+        "id": "mandi",
+        "name": "مندي",
+        "nameEn": "mandi"
+      },
+      {
+        "id": "specials",
+        "name": "الأطباق المميزة",
+        "nameEn": "specials"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "كفتة مشوية",
+        "nameEn": "Grilled Kofta",
+        "description": "كفتة طازجة مشوية على الفحم مع البهارات الخاصة",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776163548/%D8%B7%D8%A8%D9%82_%D9%83%D9%81%D8%AA%D9%87_%D8%B4%D9%83%D9%84%D9%87_202604141245_f87utv.jpg",
+        "rating": 4.6,
+        "badge": "الأكثر طلباً",
+        "badgeType": "popular",
+        "available": true
+         
+        },
+      
+      {
+        "id": 2,
+        "name": "كباب مشوي",
+        "nameEn": "Grilled Kabab",
+        "description": "كباب من أجود أنواع اللحم المشوي على الفحم",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776163325/%D9%83%D8%A8%D8%A7%D8%A8_%D9%85%D8%B4%D9%88%D9%8A_%D9%85%D8%B7%D8%B9%D9%85_202604141238_lp38aq.jpg",
+        "rating": 4.7,
+        "badge": "الأفضل",
+        "badgeType": "best",
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": "فراخ مشوية",
+        "nameEn": "Grilled Chicken",
+        "description": "فراخ مشوية على الفحم مع التتبيلة الخاصة",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776162485/Chef_cooking_chicken_202604141225_sl8puc.jpg",
+        "rating": 4.5,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": "سجق مشوي",
+        "nameEn": "Grilled Sausage",
+        "description": "سجق بلدي مشوي على الفحم",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776163845/%D8%B7%D8%A8%D9%82_%D8%B3%D8%AC%D9%82_%D9%85%D8%B4%D9%88%D9%8A_202604141250_o2klgr.jpg",
+        "rating": 4.4,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": "ميكس جريل",
+        "nameEn": "Mix Grill",
+        "description": "تشكيلة من الكباب والكفتة والسجق والفراخ",
+        "category": ["grills", "specials"],
+        
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776164066/Mix_grill_kebab_202604141254_ohxfpo.jpg",
+        "rating": 4.8,
+        "badge": "مميز",
+        "badgeType": "special",
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": "مندي لحم",
+        "nameEn": "Meat Mandi",
+        "description": "مندي لحم بالطريقة الأصلية مع الأرز البسمتي",
+        "category": ["mandi", "specials"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776164567/%D8%B5%D9%86%D9%8A%D8%A9_%D9%84%D8%AD%D9%85_%D9%85%D9%86%D8%AF%D9%8A_202604141302_zlylhk.jpg",
+        "rating": 4.7,
+        "badge": "مميز",
+        "badgeType": "special",
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": "مندي دجاج",
+        "nameEn": "Chicken Mandi",
+        "description": "مندي دجاج طازج مع الأرز البسمتي والسلطات",
+        "category": ["mandi"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776166260/pexels-anthony-rahayel-125801377-16107645_mu0jk6.jpg",
+        "rating": 4.6,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": "ساندوتش كفتة",
+        "nameEn": "Kofta Sandwich",
+        "description": "ساندوتش كفتة مشوية مع الخضار والطحينة",
+        "category": ["sandwiches"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776166612/pexels-shameel-mukkath-3421394-5191850_tpybxh.jpg",
+        "rating": 4.5,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": "ساندوتش كباب",
+        "nameEn": "Kabab Sandwich",
+        "description": "ساندوتش كباب مشوي مع السلطة والطحينة",
+        "category": ["sandwiches"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776167131/%D8%B3%D8%A7%D9%86%D8%AF%D9%88%D8%AA%D8%B4_%D9%83%D8%A8%D8%A7%D8%A8_%D9%85%D8%B9_202604141345_xq51u9.jpg",
+        "rating": 4.6,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": "ريش ضاني",
+        "nameEn": "Lamb Ribs",
+        "description": "ريش ضاني طرية مشوية على الفحم",
+        "category": ["grills", "specials"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776167695/pexels-mohamed9380-36630826_bneunx.jpg",
+        "rating": 4.9,
+        "badge": "الأفضل",
+        "badgeType": "best",
+        "available": true
+      },
+      {
+        "id": 11,
+        "name": "شيش طاووق",
+        "nameEn": "Shish Tawook",
+        "description": "شيش طاووق بالتتبيلة الخاصة مشوي على الفحم",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776167595/pexels-ali-dashti-506667798-25856531_na6ajx.jpg",
+        "rating": 4.5,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": "كبدة إسكندراني",
+        "nameEn": "Alexandrian Liver",
+        "description": "كبدة بلدي بالطريقة الإسكندرانية",
+        "category": ["grills"],
+        "image": "https://res.cloudinary.com/dinbygyca/image/upload/q_auto/f_auto/v1776167832/%D9%83%D8%A8%D8%AF%D9%87_%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D8%A7%D9%86%D9%8A_202604141357_uwfgtx.jpg",
+        "rating": 4.4,
+        "badge": null,
+        "badgeType": null,
+        "available": true
+      }
+    ]
+  },
+  "reviews": {
+    "overall": {
+      "rating": 4.5,
+      "totalReviews": 350,
+      "distribution": {
+        "5": 70,
+        "4": 20,
+        "3": 7,
+        "2": 2,
+        "1": 1
+      }
+    },
+    "items": [
+      {
+        "id": 1,
+        "customerName": "أحمد محمود",
+        "rating": 5,
+        "date": "منذ أسبوع",
+        "dateISO": "2024-01-15",
+        "comment": "والله العظيم أحسن كفتة وكباب في طامية، الأكل طازج والخدمة ممتازة، والأسعار كويسة جداً. ربنا يبارك لهم.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 2,
+        "customerName": "محمد السيد",
+        "rating": 5,
+        "date": "منذ أسبوعين",
+        "dateISO": "2024-01-08",
+        "comment": "المندي عندهم تحفة، وفراخ المشوية ممتازة. التوصيل سريع والأكل يوصل سخن. دايماً بطلب منهم لما يبقى عندي ضيوف.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 3,
+        "customerName": "خالد حسن",
+        "rating": 4,
+        "date": "منذ 3 أسابيع",
+        "dateISO": "2024-01-01",
+        "comment": "الأكل لذيذ جداً والسعر مناسب، بس التوصيل بياخد وقت شوية في أوقات الذروة. غير كده ممتازين.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 4,
+        "customerName": "عبد الرحمن علي",
+        "rating": 5,
+        "date": "منذ شهر",
+        "dateISO": "2023-12-22",
+        "comment": "ميكس الجريل بتاعهم روعة! كمية كبيرة ومناسبة للعزومات. الطعم أصلي والتتبيلة حلوة جداً. أنصح الكل بالتجربة.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 5,
+        "customerName": "ياسر إبراهيم",
+        "rating": 4.5,
+        "date": "منذ شهر",
+        "dateISO": "2023-12-20",
+        "comment": "من أفضل المطاعم في طامية. الجودة عالية والنظافة ممتازة. الكباب والكفتة عندهم مش موجودين في حتة تانية.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 6,
+        "customerName": "مصطفى عبد العزيز",
+        "rating": 5,
+        "date": "منذ شهرين",
+        "dateISO": "2023-11-22",
+        "comment": "أحلى حاجة إن الأكل بلدي وأصيل، مش مغشوش. السعر معقول جداً والكمية كويسة. عملت عندهم عزومة وكل الناس عجبهم الأكل.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 7,
+        "customerName": "حسام الدين",
+        "rating": 5,
+        "date": "منذ شهرين",
+        "dateISO": "2023-11-18",
+        "comment": "الريش الضاني عندهم ولا أروع! طرية ومتبلة كويس. المطعم نظيف والعاملين محترمين.",
+        "verified": true,
+        "avatar": null
+      },
+      {
+        "id": 8,
+        "customerName": "طارق صلاح",
+        "rating": 4,
+        "date": "منذ 3 شهور",
+        "dateISO": "2023-10-22",
+        "comment": "الأكل ممتاز والسعر مناسب. الساندوتشات كبيرة والحجم كويس. بس ياريت يضيفوا أصناف جديدة للمنيو.",
+        "verified": true,
+        "avatar": null
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "title": "ميكس جريل",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+      "category": "food"
+    },
+    {
+      "id": 2,
+      "title": "كباب مشوي",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800",
+      "category": "food"
+    },
+    {
+      "id": 3,
+      "title": "مندي لحم",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800",
+      "category": "food"
+    },
+    {
+      "id": 4,
+      "title": "المطعم من الداخل",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800",
+      "category": "restaurant"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "icon": "fas fa-clock",
+      "title": "أوقات العمل",
+      "description": "يومياً من 12 ظهراً - 2 صباحاً",
+      "available": true
+    },
+    {
+      "id": 2,
+      "icon": "fas fa-truck",
+      "title": "التوصيل",
+      "description": "توصيل سريع لجميع انحاء الفيوم",
+      "available": true
+    },
+    {
+      "id": 3,
+      "icon": "fas fa-tag",
+      "title": "عروض خاصة",
+      "description": "خصومات على الطلبات الكبيرة والعزومات",
+      "available": true
+    },
+    {
+      "id": 4,
+      "icon": "fas fa-users",
+      "title": "للعائلات",
+      "description": "جلسات عائلية مريحة ومجهزة",
+      "available": true
+    }
+  ],
+  "seo": {
+    "title": "مشويات ابن البلد | أفضل مشويات في طامية - الفيوم",
+    "description": "مشويات ابن البلد - أفضل مطعم مشويات في طامية، الفيوم. متخصصون في المشويات على الفحم والأكل البلدي المصري",
+    "keywords": "مشويات, كباب, كفتة, مطعم, طامية, الفيوم, مندي, فراخ مشوية, سجق, ميكس جريل, توصيل, ابن البلد",
+    "author": "مشويات ابن البلد",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+    "url": "https://www.mashaweeat-ebn-elbalad.com"
+  }
+}
