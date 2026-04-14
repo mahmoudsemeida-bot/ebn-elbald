@@ -39,9 +39,21 @@ function updatePageContent() {
     document.querySelector('.rating-text').textContent = `(${info.totalReviews}+ تقييم)`;
 
     // تحديث سنوات الخبرة
-    const experienceBadge = document.querySelector('.experience-badge');
+   const experienceBadge = document.querySelector('.experience-badge');
     if (experienceBadge) {
-        experienceBadge.querySelector('.badge-number').textContent = `${info.yearsOfExperience}+`;
+        const badgeNumber = experienceBadge.querySelector('.badge-number');
+        const badgeText = experienceBadge.querySelector('.badge-text');
+        
+        if (badgeNumber) {
+            badgeNumber.textContent = `${info.yearsOfExperience}+`;
+            console.log('✅ تم تحديث سنوات الخبرة:', info.yearsOfExperience);
+        }
+        
+        if (badgeText) {
+            badgeText.textContent = 'سنوات خبرة';
+        }
+    } else {
+        console.warn('⚠️ لم يتم العثور على عنصر experience-badge');
     }
 
     // تحديث معلومات التواصل
